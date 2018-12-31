@@ -557,7 +557,7 @@ class HtmlParser {
           );
         case "p":
           return Padding(
-            padding: EdgeInsets.only(top: 14.0, bottom: 14.0),
+            padding: EdgeInsets.only(top: 0.0, bottom: 5.0),
             child: Container(
               width: width,
               child: Wrap(
